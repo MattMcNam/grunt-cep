@@ -4,16 +4,16 @@
             "familyname": "Photoshop",
             "name": "Photoshop",
             "ids": [ "PHXS", "PHSP" ],
-            "version": { "min": "16.0", "max": "16.9" },
-            "bin": { "win": "Photoshop.exe", "mac": "Adobe Photoshop CC 2015.app" },
+            "version": { "min": "16.0", "max": "17.9" },
+            "bin": { "win": "Photoshop.exe", "mac": "Adobe Photoshop CC 2015" },
             "x64": true
         },
         "illustrator": {
             "familyname": "Illustrator",
             "name": "Illustrator",
             "ids": [ "ILST" ],
-            "version": { "min": "19.0", "max": "19.9" },
-            "bin": { "win": "Support Files/Contents/Windows/Illustrator.exe", "mac": "Adobe Illustrator CC 2015.app" },
+            "version": { "min": "19.0", "max": "20.9" },
+            "bin": { "win": "Support Files/Contents/Windows/Illustrator.exe", "mac": "Adobe Illustrator CC 2015" },
             "x64": true
         },
         "indesign": {
@@ -21,7 +21,7 @@
             "name": "InDesign",
             "ids": [ "IDSN" ],
             "version": { "min": "11.0", "max": "11.9" },
-            "bin": { "win": "InDesign.exe", "mac": "Adobe InDesign CC 2015.app" },
+            "bin": { "win": "InDesign.exe", "mac": "Adobe InDesign CC 2015" },
             "x64": true
         },
         "flash": {
@@ -29,7 +29,7 @@
             "name": "Flash",
             "ids": [ "FLPR" ],
             "version": { "min": "15.0", "max": "15.9" },
-            "bin": { "win": "Flash.exe", "mac": "Adobe Flash CC 2015.app" },
+            "bin": { "win": "Flash.exe", "mac": "Adobe Flash CC 2015" },
             "x64": true
         },
         "aftereffects": {
@@ -37,23 +37,23 @@
             "name": "After Effects",
             "ids": [ "AEFT" ],
             "version": { "min": "13.5", "max": "13.9" },
-            "bin": { "win": "Support Files/AfterFX.exe", "mac": "Adobe After Effects CC 2015.app" },
+            "bin": { "win": "Support Files/AfterFX.exe", "mac": "Adobe After Effects CC 2015" },
             "x64": true
         },
         "premiere": {
             "familyname": "Premiere",
             "name": "Premiere Pro",
             "ids": [ "PPRO" ],
-            "version": { "min": "9.0", "max": "9.9" },
-            "bin": { "win": "Adobe Premiere Pro.exe", "mac": "Adobe Premiere Pro CC 2015.app" },
+            "version": { "min": "9.0", "max": "10.9" },
+            "bin": { "win": "Adobe Premiere Pro.exe", "mac": "Adobe Premiere Pro CC 2015" },
             "x64": true
         },
         "prelude": {
             "familyname": "Prelude",
             "name": "Prelude",
             "ids": [ "PRLD" ],
-            "version": { "min": "4.0", "max": "4.9" },
-            "bin": { "win": "Prelude.exe", "mac": "Adobe Prelude CC 2015.app" },
+            "version": { "min": "4.0", "max": "5.9" },
+            "bin": { "win": "Prelude.exe", "mac": "Adobe Prelude CC 2015" },
             "x64": false
         },
         "dreamweaver": {
@@ -61,7 +61,7 @@
             "name": "Dreamweaver",
             "ids": [ "DRWV" ],
             "version": { "min": "15.0", "max": "15.9" },
-            "bin": { "win": "Dreamweaver.exe", "mac": "Adobe Dreamweaver CC 2015.app" },
+            "bin": { "win": "Dreamweaver.exe", "mac": "Adobe Dreamweaver CC 2015" },
             "x64": false
         },
         "incopy": {
@@ -69,7 +69,7 @@
             "name": "InCopy",
             "ids": [ "AICY" ],
             "version": { "min": "11.0", "max": "11.9" },
-            "bin": { "win": "InCopy.exe", "mac": "Adobe InCopy CC 2015.app" },
+            "bin": { "win": "InCopy.exe", "mac": "Adobe InCopy CC 2015" },
             "x64": true
         }
     },

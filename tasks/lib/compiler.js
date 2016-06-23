@@ -199,20 +199,8 @@ module.exports = function (grunt)
                     launch_config.app_folder += ' (64 Bit)';
                 }
 
-                if (!grunt.file.exists(launch_config.app_folder))
-                {
-                    grunt.fatal('Unable to find Adobe ' + launch_config.host.name + ' ' + launch_config.family + ' folder at "' + launch_config.app_folder + '".');
-                    return false;
-                }
-
                 // Application executable path
-                launch_config.app_bin = path.join(launch_config.app_folder, global.IS_WINDOWS ? launch_config.host.bin.win : launch_config.host.bin.mac);
-
-                if (!grunt.file.exists(launch_config.app_bin))
-                {
-                    grunt.fatal('Unable to find Adobe ' + launch_config.host.name + ' ' + launch_config.family + ' executable at "' + launch_config.app_bin + '".');
-                    return false;
-                }
+                launch_config.app_bin = path.join(launch_config.app_folder, global.IS_WINDOWS ? launch_config.host.bin.win : launch_config.host.bin.mac + '.app');
 
                 callback();
             },
@@ -373,7 +361,7 @@ module.exports = function (grunt)
                 {
                     options = {
                         cmd: 'open',
-                        args: ['-F', '-n', '"' + launch_config.app_bin + '"'],
+                        args: ['-F', '-n', '-a', '"' + launch_config.host.bin.mac + '"'],
                     };
                 }
                 else
