@@ -1,5 +1,5 @@
 {
-    "CC2018": {        
+    "CC2018": {
         "indesign": {
             "familyname": "InDesign",
             "name": "InDesign",
@@ -7,7 +7,7 @@
             "version": { "min": "13.0", "max": "13.9" },
             "bin": { "win": "InDesign.exe", "mac": "Adobe InDesign CC 2018.app" },
             "x64": true
-        },      
+        },
        "incopy": {
             "familyname": "InCopy",
             "name": "InCopy",
@@ -15,7 +15,15 @@
             "version": { "min": "13.0", "max": "13.9" },
             "bin": { "win": "InCopy.exe", "mac": "Adobe InCopy CC 2018.app" },
             "x64": true
-        }
+        },
+      "premiere": {
+          "familyname": "Premiere",
+          "name": "Premiere Pro",
+          "ids": [ "PPRO" ],
+          "version": { "min": "12.0", "max": "12.9" },
+          "bin": { "win": "Adobe Premiere Pro.exe", "mac": "Adobe Premiere Pro CC 2018.app" },
+          "x64": true
+      }    
     },
     "CC2017": {
         "photoshop": {
