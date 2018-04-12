@@ -49,15 +49,15 @@ module.exports = function (grunt)
         build.extensions.forEach(function (extension)
         {
             //<CEFCommandLine>
-            var cef_params = [];
             if (Array.isArray(extension.cef_params))
             {
+                var cef_params = [];
                 extension.cef_params.forEach(function (cef_param)
                 {
                     cef_params.push('<Parameter>' + cef_param + '</Parameter>')
                 });
+                extension.cef_params = cef_params.join('\n\t\t\t\t\t');
             }
-            extension.cef_params = cef_params.join('\n\t\t\t\t\t');
 
             var data = _.extend({}, { 'extension': extension, 'build': build, });
 
@@ -111,6 +111,7 @@ module.exports = function (grunt)
             });
 
         var processed = grunt.template.process(grunt.file.read(bundle.manifest), { data: data });
+
         grunt.file.write(dest, processed);
 
         grunt.verbose.or.ok();
