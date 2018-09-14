@@ -4,7 +4,17 @@
           "familyname": "Premiere",
           "name": "Premiere Pro",
           "ids": [ "PPRO" ],
-          "version": { "min": "12.9", "max": "20.9" },
+          "version": { "min": "14.0", "max": "20.9" },
+          "bin": { "win": "Adobe Premiere Pro.exe", "mac": "Adobe Premiere Pro CC 2020.app" },
+          "x64": true
+      }
+    },
+    "CC2019": {
+      "premiere": {
+          "familyname": "Premiere",
+          "name": "Premiere Pro",
+          "ids": [ "PPRO" ],
+          "version": { "min": "13.0", "max": "13.9" },
           "bin": { "win": "Adobe Premiere Pro.exe", "mac": "Adobe Premiere Pro CC 2019.app" },
           "x64": true
       }

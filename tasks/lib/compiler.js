@@ -190,6 +190,7 @@ module.exports = function (grunt)
                     'CC2015.5': 'CC 2015.5',
                     'CC2017': 'CC 2017',
                     'CC2018': 'CC 2018',
+                    'CC2019': 'CC 2019'
                 };
 
                 var folder_name = launch_config.host.hasOwnProperty('folder') ? launch_config.host.folder : '/Adobe ' + launch_config.host.name + ' ' + folder_family[launch_config.family];
