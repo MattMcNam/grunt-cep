@@ -32,6 +32,9 @@
 
       <!-- Rush -->
       <Host Name="RUSH" Port="<%= build.launch.host_port + (i * 100) + 9 %>" />
+
+      <!-- Audition -->
+      <Host Name="AUDT" Port="<%= build.launch.host_port + (i * 100) + 10 %>" />
     </HostList>
   </Extension>
   <% } %>

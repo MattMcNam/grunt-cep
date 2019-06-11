@@ -10,6 +10,14 @@
         }
     },
     "CC2019": {
+        "audition": {
+            "familyname": "Audition",
+            "name": "Audition",
+            "ids": ["AUDT"],
+            "version": { "min": "12.0", "max": "12.9" },
+            "bin": { "win": "Audition.exe", "mac": "Adobe Audition CC 2019.app" },
+            "x64": true
+        },
         "photoshop": {
             "familyname": "Photoshop",
             "name": "Photoshop",
@@ -93,6 +101,14 @@
         }
     },
     "CC2018": {
+        "audition": {
+            "familyname": "Audition",
+            "name": "Audition",
+            "ids": ["AUDT"],
+            "version": { "min": "11.0", "max": "11.9" },
+            "bin": { "win": "Audition.exe", "mac": "Adobe Audition CC 2018.app" },
+            "x64": true
+        },
         "photoshop": {
             "familyname": "Photoshop",
             "name": "Photoshop",
@@ -176,6 +192,14 @@
         }
     },
     "CC2017": {
+        "audition": {
+            "familyname": "Audition",
+            "name": "Audition",
+            "ids": ["AUDT"],
+            "version": { "min": "10.0", "max": "10.9" },
+            "bin": { "win": "Audition.exe", "mac": "Adobe Audition CC 2017.app" },
+            "x64": true
+        },
         "photoshop": {
             "familyname": "Photoshop",
             "name": "Photoshop",
