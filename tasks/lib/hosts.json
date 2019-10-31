@@ -1,11 +1,28 @@
 {
     "FUTURE": {
+        "audition": {
+            "familyname": "Audition",
+            "name": "Audition",
+            "ids": ["AUDT"],
+            "version": { "min": "13.0", "max": "99.9" },
+            "bin": { "win": "Audition.exe", "mac": "Adobe Audition 2020.app" },
+            "x64": true
+        },
         "premiere": {
             "familyname": "Premiere",
             "name": "Premiere Pro",
             "ids": [ "PPRO" ],
-            "version": { "min": "14.0", "max": "20.9" },
+            "version": { "min": "14.0", "max": "99.9" },
             "bin": { "win": "Adobe Premiere Pro.exe", "mac": "Adobe Premiere Pro CC 2020.app" },
+            "x64": true
+        },
+        "rush": {
+            "familyname": "Premiere Rush",
+            "name": "Premiere Rush",
+            "ids": [ "RUSH" ],
+            "version": { "min": "2.0", "max": "99.9" },
+            "bin": { "win": "Adobe Premiere Rush.exe", "mac": "Adobe Premiere Rush CC.app" },
+            "folder": "Adobe Premiere Rush CC",
             "x64": true
         }
     },
