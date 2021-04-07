@@ -79,7 +79,7 @@
             "familyname": "Premiere",
             "name": "Premiere Pro",
             "ids": [ "PPRO" ],
-            "version": { "min": "14.0", "max": "14.9" },
+            "version": { "min": "15.0", "max": "15.9" },
             "bin": { "win": "Adobe Premiere Pro.exe", "mac": "Adobe Premiere Pro 2021.app" },
             "x64": true
         },
